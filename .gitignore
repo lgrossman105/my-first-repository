@@ -1,0 +1,5 @@
+_pycache
+.pytest_cache
+.DS_Store
+
+#May also want to ignore credentials
