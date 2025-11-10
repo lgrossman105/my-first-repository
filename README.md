@@ -15,16 +15,11 @@ Navigate to the repo using the command line.
 
 For more information about Markdown syntax, see the [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).
 ```sh
-cd ~/Desktop/my-first-repo-fall-2025
+cd ~/Desktop/my-first-repository
 ```
 
 ## Usage
 
-Example script:
-
-```sh
-python app/my_script.py
-```
 
 Game of rock, paper, scissors:
 
