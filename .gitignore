@@ -1,7 +1,9 @@
 # Here are files we want to ignore
 
-_pycache
+__pycache__
 .pytest_cache
 .DS_Store
+new.md
+another.md
 
 #May also want to ignore credentials
