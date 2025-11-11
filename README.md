@@ -36,6 +36,19 @@ Install package dependencies:
 pip install -r requirements.txt
 ```
 
+## Configuration
+
+The stocks functionality requires an AlphaVantage API key. Obtain a premium AlphaVantage API Key (using the [form](https://www.alphavantage.co/support/#api-key) or shared by the prof).
+
+Create a local ".env" file and store your environment variable in there:
+
+```sh
+# this is the ".env" file...
+
+ALPHAVANTAGE_API_KEY="______________"
+```
+
+
 ## Usage
 
 
@@ -47,6 +60,13 @@ python app/rps.py
 # alternative "modular style" command:
 python -m app.rps
 ```
+
+Stocks dashboard:
+
+```sh
+python -m app.stocks
+```
+
 
 ## Testing
 
