@@ -5,5 +5,6 @@ __pycache__
 .DS_Store
 new.md
 another.md
+.env
 
 #May also want to ignore credentials
