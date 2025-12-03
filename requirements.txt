@@ -7,6 +7,7 @@ plotly
 
 #web app:
 flask
+gunicorn
 
 # testing:
 pytest

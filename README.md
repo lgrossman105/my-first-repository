@@ -46,6 +46,10 @@ Create a local ".env" file and store your environment variable in there:
 # this is the ".env" file...
 
 ALPHAVANTAGE_API_KEY="______________"
+
+# also tell flask where our web app is defined:
+FLASK_APP=web_app
+```
 ```
 
 
@@ -69,20 +73,14 @@ Stocks dashboard:
 python -m app.stocks
 ```
 
-
-## Testing
-
-Run tests:
-
-```sh
-pytest
-```
-
 ### Web App
 
 Run the web app (then view in the browser at http://localhost:5000/):
 
 ```sh
+# if we have the FLASK_APP=web_app env var in the ".env" file:
+flask run
+
 # Mac OS:
 FLASK_APP=web_app flask run
 
@@ -92,3 +90,14 @@ FLASK_APP=web_app flask run
 export FLASK_APP=web_app
 flask run
 ```
+
+## Testing
+
+Run tests:
+
+```sh
+pytest
+```
+
+### Web APP
+Run the web app (then view in the browser at http://localhost:5000/)
