@@ -18,6 +18,10 @@ def fetch_stocks_csv(symbol="NFLX"):
     stocks_df = read_csv(request_url)
     return stocks_df
 
+def format_usd(price):
+    return f"${price:.2f}"
+
+
 if __name__ == "__main__":
 
     # FETCH THE DATA
