@@ -5,5 +5,9 @@ pandas
 python-dotenv
 plotly
 
+#web app:
+flask
+gunicorn
+
 # testing:
 pytest
