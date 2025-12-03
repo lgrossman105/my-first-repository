@@ -15,6 +15,7 @@ def create_app():
     app = Flask(__name__)
     app.register_blueprint(home_routes)
     app.register_blueprint(rps_routes)
+    app.register_blueprint(stocks_routes)
     #app.register_blueprint(book_routes)
     #app.register_blueprint(weather_routes)
     return app
